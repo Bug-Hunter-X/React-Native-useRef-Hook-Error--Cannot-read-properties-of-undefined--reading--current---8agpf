@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native with a component that is unmounted before the asynchronous operation within the `useRef` callback completes.  This results in the following error message: `Cannot read properties of undefined (reading 'current')`
